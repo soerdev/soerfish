@@ -1,6 +1,6 @@
 # name: soerfish
 # This file is part of theme-soerfish
-\UE718
+
 function _prompt_git -a gray normal orange red yellow
   set -l git_branch (_git_branch_name)
   test -z $git_branch; and return
