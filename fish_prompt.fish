@@ -46,7 +46,7 @@ end
 
 function _prompt_versions -a yellow
   set -l prompt_node (_prompt_node $yellow)
-  echo -n -e -s "$prompt_node" | string trim | string replace -ar " +" "$gray|" | tr -d '\n'
+  echo -n -e -s "$prompt_node" | string trim | tr -d '\n'
 end
 
 function _git_branch_name
