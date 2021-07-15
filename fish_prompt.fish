@@ -41,7 +41,7 @@ function _prompt_node -a color -d "Display currently activated Node"
     set -gx NODE_VERSION (string trim -l -c=v (node -v 2>/dev/null))
     set -gx LAST_NVM_BIN $NVM_BIN
   end
-  [ -n "$NODE_VERSION" ]; and echo -n -s $color  $NODE_VERSION
+  [ -n "$NODE_VERSION" ]; and echo -n -s $color \UE718 $NODE_VERSION
 end
 
 function _prompt_versions -a yellow
