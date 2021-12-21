@@ -13,14 +13,17 @@
 ## Install
 
 ```fish
-$ omf install soerfish
+$ omf install soerdev/soerfish
+
 ```
 
 
 ## Features
 
 ```fish
-  set theme_display_first_line yes
+	set -g theme_display_first_line yes
+	set -g theme_display_node yes
+	set -g theme_display_version_info yes
 ```
 
 
